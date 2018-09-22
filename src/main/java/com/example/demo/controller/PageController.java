@@ -56,7 +56,6 @@ public class PageController {
 			text += (totalhm + " ");
 		}
 		
-		System.out.println(text);
 		  model.addAttribute("text", text);
 		  return "generator";
 	}
